@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fitness Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🏋️ Fitness Tracker</h1>
+
+    <form id="fitnessForm">
+      <input type="text" id="activity" placeholder="Activity (e.g., Running)" required />
+      <input type="number" id="duration" placeholder="Duration (min)" min="1" required />
+      <input type="number" id="calories" placeholder="Calories Burned (optional)" />
+      <button type="submit">➕ Add Entry</button>
+    </form>
+
+    <ul id="logList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
